@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KORI</title>
+
+        <link rel="stylesheet" href="styles.css">
+        
+</head>
+<body>
+    <header>
+        <div class="socials fade-in">
+            <img id="TwitterIcon" onclick="window.open('https://x.com/kori_game_', '_blank')" src="documents/TwitterIcon.png" alt="Twitter!" class="socials" title="Not even Twitter anymore, just straight up X.">
+            <img id="InstagramIcon" onclick="window.open('https://www.instagram.com/kori_game_/', '_blank')" src="documents/InstagramIcon.png" alt="Instagram!" class="socials" title="Insta...kilogram!...Anyone?">
+            <img id="FacebookIcon" onclick="window.open('https://www.facebook.com/profile.php?id=61571318204385', '_blank')" src="documents/FacebookIcon.png" alt="Facebook!" class="socials" title="Yeah...Facebook in 2025. Am I right?">
+        </div>
+        <div class="language-switch fade-in">
+            <a href="/fr/index.html">FR</a>
+        </div>
+        <div class="line fade-in"></div>
+    </header>
+
+    <div class="main-content" id="mainMenu">
+        <img id="koriTitle" class="title" src="documents/KoriTitle.png" alt="KORI" onclick="resetPage()">
+        <div class="content-container fade-in" id="content">
+            Are you having a nice day? Welcome to the website of my most anticipated game KORI! Take a look at what's offered in the website and don't forget to have fun reading!<br>
+            <video width="45%" controls class="content-video">
+                <source src="documents/koriOST.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <img class="character-gif fade-in" src="documents/koriAnimation2.gif" alt="Character Animation">
+    </div>
+
+    <div class="nav-buttons fade-in">
+       <button onclick="handleButtonClick(this, 'about')">About</button>
+       <button onclick="handleButtonClick(this, 'gallery')">Gallery</button>
+       <button onclick="handleButtonClick(this, 'QnA')">QnA</button>
+       <button onclick="handleButtonClick(this, 'future')">Future</button>
+    </div>
+
+         <script src="scripts.js"></script> 
+
+</body>
+</html>

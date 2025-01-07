@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KORI</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="socials fade-in">
+            <img id="TwitterIcon" onclick="window.open('https://x.com/kori_game_', '_blank')" src="documents/TwitterIcon.png" alt="Twitter!" class="socials" title="Même plus Twitter maintenant, juste X...littéralement.">
+            <img id="InstagramIcon" onclick="window.open('https://www.instagram.com/kori_game_/', '_blank')" src="documents/InstagramIcon.png" alt="Instagram!" class="socials" title="Instagram...plutôt InstaKilogram haha...Non?">
+            <img id="FacebookIcon" onclick="window.open('https://www.facebook.com/profile.php?id=61571318204385', '_blank')" src="documents/FacebookIcon.png" alt="Facebook!" class="socials" title="Eh ouais...Facebook en 2025. N'est ce pas?">
+        </div>
+        <div class="language-switch fade-in">
+            <a href="/en/index.html">EN</a>
+        </div>
+        <div class="line fade-in"></div>
+    </header>
+
+    <div class="main-content" id="mainMenu">
+        <img id="koriTitle" class="title" src="documents/koriTitle.png" alt="KORI" onclick="resetPage()">
+        <div class="content-container fade-in" id="content">
+            Passez vous une belle journee? Je vous souhaite la bienvenue dans le site web de mon jeu le plus attendu: KORI! Jetez un coup d'oeil et regardez ce que mon site peux vous offrir et n'oubliez surtout pas d'avoir du plaisir en lisant!<br>
+            <video width="45%" controls class="content-video">
+                <source src="documents/koriOST.mp4" type="video/mp4">
+                Votre moteur de recherche ne supporte pas le tag de cette video.
+            </video>
+        </div>
+        <img class="character-gif fade-in" src="documents/koriAnimation2.gif" alt="Character Animation" on>
+    </div>
+
+    <div class="nav-buttons fade-in">
+       <button onclick="handleButtonClick(this, 'about')">A propos</button>
+       <button onclick="handleButtonClick(this, 'gallery')">Gallerie</button>
+       <button onclick="handleButtonClick(this, 'QnA')">FAQ</button>
+       <button onclick="handleButtonClick(this, 'future')">Futur</button>
+    </div>
+
+    <script src="scripts.js"></script> 
+
+</body>
+</html>

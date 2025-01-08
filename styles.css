@@ -344,7 +344,7 @@ to {
 
   .character-gif {
     position: absolute;
-    bottom: -40px;
+    bottom: -4000px;
     left: 50%;
     transform: translateX(-50%);
     width: 200px;

@@ -55,7 +55,7 @@ const content = document.getElementById('content');
             `,
              
             gallery: `
-              <h1>Gallerie</h1>
+              <h1>Galerie</h1>
               <p>J'ai fait quelques concepts d'arts et de sprites pour l'instant et je vais continuer a televerser les nouvelles choses que je fais et mettre a jour les anciennes!<br>
               <br> <img src="documents/koriSketch.png" alt="Premier sketch de Kori" style="width: 100px, max-width: 100px; Height: 200px;"> <br>
               J'ai essaye d'imaginer a quoi ressemblerait le personnage principal de mon histoire. Il devait montrer sa personnalite a travers le design et je pense que cela a plutot bien fonctionne. Ce n'est pas mon premier design, mais plutot mon dernier et je suis content du resultat final. Il ressemble a un gars deprime qui reste seul. Je me suis inspire du travail d'Inio Asano et de l'ecriture profonde de ses personnages. Et oui, son nom Kori vient du mot koritsu en japonais qui signifie isolement ou etre seul et sans amis. Cela a pris une sombre tournure…<br>
